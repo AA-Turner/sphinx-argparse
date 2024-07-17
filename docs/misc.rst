@@ -20,7 +20,9 @@ The short synopsis is below:
             overflow: visible !important;
         }
 
-Alternatively, you can create a `docutil.conf` file with the following contents::
+Alternatively, you can create a `docutil.conf` file with the following contents:
+
+.. code:: ini
 
     [writers]
     option-limit=1

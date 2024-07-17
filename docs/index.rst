@@ -1,9 +1,12 @@
-`sphinx-argparse`
-=================
+``sphinx-argparse``
+===================
 
-`sphinx-argparse` is an extension for sphinx that allows for easy generation of documentation for command line tools using the python argparse library.
+`sphinx-argparse` is an extension for Sphinx_ that allows for
+easy generation of documentation for command line tools using
+Python's argparse_ library.
 
-
+.. _Sphinx: https://www.sphinx-doc.org/
+.. _argparse: https://docs.python.org/3/library/argparse.html
 
 .. toctree::
    :maxdepth: 2
@@ -22,15 +25,21 @@ Installation
 
 This extension works with Python 3.10 or later and Sphinx 5.1 or later.
 
-The package is available in the `Python Package Index`_::
+The package is available in the `Python Package Index`_:
 
-    pip install sphinx-argparse
+.. code:: session
 
-And also in `conda-forge`_::
+   pip install sphinx-argparse
 
-    mamba -c conda-forge install sphinx-argparse
+And also in `conda-forge`_:
 
-Enable the extension in your sphinx config::
+.. code:: session
+
+   mamba -c conda-forge install sphinx-argparse
+
+Enable the extension in your sphinx config:
+
+.. code:: python
 
     extensions = [
         ...,
@@ -41,10 +50,8 @@ Enable the extension in your sphinx config::
 .. _conda-forge: https:://github.com/conda-forge/sphinx-argparse-feedstock/
 
 
-References
-==========
-
 Similar projects
 -------------------
 
- * https://pythonhosted.org/sphinxcontrib-autoprogram/ (See for comparison: https://github.com/ribozz/sphinx-argparse/issues/16)
+ * https://pypi.org/project/sphinxcontrib-autoprogram/
+   (See a comparison: https://github.com/sphinx-doc/sphinx-argparse/issues/16)
